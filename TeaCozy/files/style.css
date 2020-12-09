@@ -1,0 +1,138 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+main {
+  padding-top: 69px;
+  width: 1200px;
+  /* Horizontally center an element within its container. */
+  margin: auto;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container{
+  display: flex;
+  /*  Items are forced onto multiple lines */
+  flex-wrap: wrap;
+  /* Items are distributed center within a container */
+  justify-content: center;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main Section */
+
+#mission {
+  height: 700px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* Store Section */
+
+#store {
+  height: 700px;
+  padding-top: 70px;
+  width: 1000px;
+  margin: auto;
+}
+
+figure {
+  padding: 12px;
+  margin: auto;
+  
+}
+
+figure img {
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location Section */
+
+#locations {
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+  width: 1100px;
+  margin: auto;
+}
+
+.location {
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  /* Initial size of the flex item */
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
