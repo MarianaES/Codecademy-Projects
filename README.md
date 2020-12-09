@@ -53,3 +53,17 @@ Unlike the previous ones, this one was a step-by-step tutorial where I was allow
 #### Project goals
 
 Develop **Python Classes** and **Objects** that represent the various responsibilities of art dealership software.
+
+### 5. Tea Cozy
+
+#### Description
+
+Based on a [design spec](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg) and image assets provided by Codecademy, I created the following fictional tea shop website: 
+
+![Image1](TeaCozy/TeaCozy_webpage.png)
+
+#### Project goals
+
+Reproduce the basic HTML and CSS applying a layout with Flexbox.
+
+
