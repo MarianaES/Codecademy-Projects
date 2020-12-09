@@ -64,6 +64,6 @@ Based on a [design spec](https://content.codecademy.com/courses/freelance-1/unit
 
 #### Project goals
 
-Reproduce the basic HTML and CSS applying a layout with Flexbox.
+Reproduce the basic **HTML** and **CSS** applying a layout with Flexbox.
 
 
