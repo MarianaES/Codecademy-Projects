@@ -66,4 +66,15 @@ Based on a [design spec](https://content.codecademy.com/courses/freelance-1/unit
 
 Reproduce the basic **HTML** and **CSS** applying a layout with Flexbox.
 
+### 6. Ravenous
+
+#### Description
+
+The goal was to build a Yelp-like clone where people could search for restaurants in their area and view a list of restaurants returned by the Yelp API. 
+
+![Image2](Ravenous/ravenous_webpage.png)
+
+#### Project goals
+
+Test my knowledge of **JavaScript** and **React**.
 
